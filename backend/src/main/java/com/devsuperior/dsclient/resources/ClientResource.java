@@ -20,8 +20,8 @@ public class ClientResource {
 	@GetMapping
 	public ResponseEntity<List<Client>> findAll(){
 		List<Client> list = new ArrayList<>();		
-		list.add(new Client(1L,"Adriano","13448701718",9000.00,date,0));
-		list.add(new Client(2L,"Andre","13448702790",3000.00,date,0));
+		list.add(new Client(1L,"Adriano","11111111111",9000.00,date,0));
+		list.add(new Client(2L,"Andre","12222222222",3000.00,date,0));
 		list.add(new Client(3L,"Vera","12345678",2000.00,date,1));
 		return ResponseEntity.ok().body(list);
 	}
